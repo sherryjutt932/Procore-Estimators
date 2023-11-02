@@ -1,0 +1,62 @@
+
+.contactCon .contactImg{
+    width: 100%;
+    margin: 57px 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.contactCon .contactImg > img{
+    position: absolute;
+    top: 0%;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.contactCon .contactImg > div{
+    padding: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+
+.contactCon .contactImg .btnWrapper .icons{
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.contactCon .contactImg .btnWrapper .icons img{
+    width: 46px;
+    height: 46px;
+}
+
+.contactCon .contactImg .btnWrapper button{
+    border-radius: 15px;
+    height: 117px;
+    color: var(--light);
+    background-color: var(--main);
+    font-weight: 900;
+    font-size: 25px;
+    line-height: normal;
+    padding: 0 25px;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+
+.contactCon .contactImg h3{
+    color: var(--light);
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 43px;
+    max-width: 940px;
+}
+
+.contactCon .contactImg h3 span{
+    font-weight: 700;
+}

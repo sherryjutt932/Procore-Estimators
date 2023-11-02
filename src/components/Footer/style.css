@@ -1,0 +1,109 @@
+footer {
+    background-color: var(--dark);
+    width: 100%;
+    padding: 10px 0;
+}
+
+footer .menu {
+    width: 100%;
+    display: flex;
+    height: fit-content;
+    padding: 20px 115px;
+    align-items: center;
+}
+
+footer .copyright {
+    width: 100%;
+    margin-top: 20px;
+    text-align:center;
+    padding: 0px 115px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: var(--light);
+    font-family: var(--inter);
+}
+
+footer .copyright img{
+    margin-left: 5px;
+    vertical-align: middle;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+
+footer .menu > div{
+    flex: 1 1 0%;
+}
+
+footer .menu  .logoCon p{
+    padding-top: 10px;
+    max-width: 325px;
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: 400;
+    color: var(--light);
+}
+
+footer .menu  .logoCon p span{
+    font-weight: 700;
+    color: var(--main);
+}
+
+footer .menu .navigation{
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+footer .menu .navigation h4{
+    font-weight: 600;
+    color: var(--light); 
+    font-size: 30px;
+    line-height: 45px;
+    font-family: var(--inter);
+}
+
+footer .menu h3{
+    font-weight: 700;
+    color: var(--light); 
+    font-size: 35px;
+    line-height: 52px;
+    font-family: var(--inter);
+}
+
+footer .menu .contact h3{
+    width: fit-content;
+}
+
+footer .menu .contact{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+footer .menu .contact>div>div{
+    display: flex;
+    width: fit-content;
+    padding: 15px 0px;
+}
+
+footer .menu .contact>div{
+    width: fit-content;
+}
+
+footer .menu .contact p{
+    font-weight: 600;
+    color: var(--light); 
+    font-size: 20px;
+    line-height: 23px;
+    max-width: 280px;
+}
+
+footer .menu .contact img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    vertical-align: middle;
+}

@@ -1,0 +1,41 @@
+.getStartedCon{
+    padding: 57px 166px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    font-family: var(--inter);
+}
+
+.getStartedCon > div{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.getStartedCon h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: var(--main);
+}
+
+.getStartedCon h3{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    color: var(--black);
+}
+
+.getStartedCon p{
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 29px;
+    color: var(--black);
+}
+
+.getStartedCon p a{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 39px;
+    color: var(--main);
+}

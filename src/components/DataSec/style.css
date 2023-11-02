@@ -1,0 +1,46 @@
+.dataSec{
+    padding: 0px 166px;
+}
+
+.dataSec .dataCon{
+    padding-bottom: 57px;
+}
+
+.dataSec .dataCon > h2{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 54px;
+    color: var(--main);
+    margin-bottom: 20px;
+}
+
+.dataSec .dataCon > div{
+    margin: 0 auto;
+    display: flex;
+    gap: 15px;
+    width: fit-content;
+}
+
+.dataSec .dataCon .DataCard{
+    background-color: var(--dark);
+    color: var(--light);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.dataSec .dataCon .DataCard > div{
+    height: 84px;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.dataSec .dataCon .DataCard > img{
+    border-radius: 15px;
+    margin-bottom: -8px;
+}
